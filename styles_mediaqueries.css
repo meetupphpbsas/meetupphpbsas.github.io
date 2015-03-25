@@ -1,0 +1,57 @@
+/* Small devices (tablets, 768px and up) */
+
+@media (max-width: 767px) {
+    .social {
+        top: 0px;
+        position: absolute;
+        right: 0px;
+        margin-top: -58px;
+        margin-right: 0px;
+    }
+}
+@media (min-width: 768px) {
+    .countdown div.countdownClock {
+        width: 75%;
+    }
+    .countdown div {
+        font-size: 1.8em;
+    }
+    .time {
+        width: 15%;
+    }
+    .text {
+        width: 80%;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .countdown div.countdownClock {
+        width: 75%;
+    }
+    .countdown div {
+        font-size: 1.8em;
+    }
+    .time {
+        width: 15%;
+    }
+    .text {
+        width: 80%;
+    }
+    .agenda .row div.left .time {
+        width: 10%;
+    }
+    .agenda .row div.left .text {
+        width: 85%;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .countdown div.countdownClock {
+        width: 50%;
+    }
+    .countdown div {
+        font-size: 1.8em;
+    }
+}

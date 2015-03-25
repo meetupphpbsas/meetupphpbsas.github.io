@@ -1,0 +1,117 @@
+.header {
+    background: #3D7B94;
+    padding-top: 4em;
+}
+.header .logo {
+    margin-bottom: 4em;
+}
+.countdown {
+    padding-top: 2em;
+    background: #F5F5F5;
+    padding-bottom: 2em;
+}
+.countdown div {
+    /*font-family: 'Arimo', sans-serif;
+    font-family: 'Lato', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    color: #3D7B94;
+}
+.countdown div.countdownClock {
+    width: 100%;
+}
+.social {
+    margin-top: -113px;
+    margin-right: -15px;
+}
+
+.countdown .titulo {
+    margin-bottom: 0.5em;
+}
+
+.agenda {
+    background: #3D7B94;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: #F5F5F5;
+    font-size: 1.45em;
+    line-height: 1.45em
+}
+
+.agenda .titulo {
+    padding-bottom: 1em;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.agenda .row div.left {
+    text-align: right;
+    border-right: solid #F5F5F5 1px;
+    padding: 0;
+    vertical-align: middle;
+    padding-bottom: 1em;
+
+}
+.agenda .row div.right {
+    text-align: left;
+    padding: 0;
+    vertical-align: top;
+    border-left: solid #F5F5F5 1px;
+    margin-left: -1px;
+    padding-bottom: 1em;
+}
+
+.time {
+    width: 20%;
+    font-weight: bold;
+}
+.agenda .row div.right .time {
+    padding-left: 10px;
+}
+.agenda .row div.left .time {
+    padding-right: 10px;
+}
+.text {
+    width: 75%;
+}
+.point-left {
+    background: url('point.png');
+    width: 5px;
+    height: 10px;
+    margin-top: 0.5em;
+}
+.point-right {
+    background: url('point.png') 0 -10px;
+    width: 5px;
+    height: 10px;
+    margin-top: 0.5em;
+}
+
+.autor {
+    color: #A7CCDA;
+}
+
+.map {
+    height: 25em;
+    padding: 0px;
+    background-color: #F5F5F5;
+}
+.map_canvas {
+    height: 100%;
+    width: 100%;
+}
+
+.map .titulo {
+    padding:1em 0 0.5em;
+    color: #3D7B94;
+    font-size: 1.84em;
+}
+
+.map img {
+    margin-bottom: 1em;
+}
+
+.footer {
+    background: #3D7B94;
+    padding: 2em 0em;
+}

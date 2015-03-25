@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Meetup PHP Buenos Aires</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="TimeCircles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_mediaqueries.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section class="row header">
+            <div class="col-md-12">
+                <img class="center-block logo" src="logo_php_meetup.png" alt="PHP Bs As Meetup" />
+                <img class="center-block" src="silueta.png" alt="PHP Bs As Meetup" />
+                <div class="social pull-right">
+                    <img src="social.png" alt="PHP Bs As Meetup" />
+                </div>
+            </div>
+        </section>
+        <section class="row countdown">
+            <div class="col-md-12 text-center">
+                <div class="titulo">Pr&oacute;ximo meetup
+                </div>
+                <div class="countdownClock center-block" data-date="2015-03-26 18:30:00">
+                </div>
+                <div>26 de Marzo 2015 <span class="hidden-xs">-</span> 18:30hs
+                </div>
+            </div>
+        </section>
+        <section class="row agenda">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-xs-12 titulo  text-center">
+                        Agenda
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-1 col-sm-6 col-lg-6 left">
+                        <div class="pull-right point-left"></div>
+                        <div class="pull-right hidden-xs time text-right">18:00</div>
+                        <div class="pull-right hidden-xs text text-right" >Presentaci&oacute;n</div>
+                        <div class="pull-right visible-xs-display hidden-sm hidden-md hidden-lg space">&nbsp;</div>
+                    </div>
+                    <div class="col-xs-11 col-sm-6 col-lg-4 right">
+                        <div class="pull-left point-right"></div>
+                        <div class="pull-left visible-xs-inline hidden-sm hidden-md hidden-l time">18:00</div>
+                        <div class="pull-left visible-xs-inline hidden-sm hidden-md hidden-lg text">Presentaci&oacute;n</div>
+                        <div class="pull-left hidden-xs visible-sm-display visible-md-display visible-lg-display space">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-1 col-sm-6 col-lg-6 left">
+                        <div class="pull-right point-left"></div>
+                        <div class="pull-right space">&nbsp;</div>
+                    </div>
+                    <div class="col-xs-11 col-sm-6 col-lg-4 right">
+                        <div class="pull-left point-right"></div>
+                        <div class="pull-left time">18:30</div>
+                        <div class="pull-left text">El arte de la guerra aplicado al desarrollo. Divide al enemigo.
+                            <br><i class="autor">&quot;Adri&aacute;n Ramiro Gay Cattaneo&quot;</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-1 col-sm-6 col-lg-6 left">
+                        <div class="pull-right point-left"></div>
+                        <div class="pull-right hidden-xs time text-right">19:00</div>
+                        <div class="pull-right hidden-xs text text-right">Hablemos de Frameworks.<br><i class="autor">&quot;Alejandro Mohamad&quot;</i></div>
+                        <div class="pull-right visible-xs-display hidden-sm hidden-md hidden-lg space">&nbsp;</div>
+                    </div>
+                    <div class="col-xs-11 col-sm-6 col-lg-4 right">
+                        <div class="pull-left point-right"></div>
+                        <div class="pull-left visible-xs-inline hidden-sm hidden-md hidden-l time text-left">19:00</div>
+                        <div class="pull-left visible-xs-inline hidden-sm hidden-md hidden-lg text text-left">Hablemos de Frameworks.<br><i class="autor">&quot;Alejandro Mohamad&quot;</i></div>
+                        <div class="pull-left hidden-xs visible-sm-display visible-md-display visible-lg-display space">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-1 col-sm-6 col-lg-6 left">
+                        <div class="pull-right point-left"></div>
+                        <div class="pull-right ">&nbsp;</div>
+                    </div>
+                    <div class="col-xs-11 col-sm-6 col-lg-4 right">
+                        <div class="pull-left point-right"></div>
+                        <div class="pull-left time">19:30</div>
+                        <div class="pull-left text text-left">New key features in PHP 5.X.<br><i class="autor">&quot;Federico Lozada Mosto&quot;</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row map">
+            <div class="col-md-12" >
+                <div class="titulo text-center">Nos juntamos en IT Master</div>
+                <img class="center-block" src="arrow_down.png" alt="" />
+                <div class="map_canvas" id="map_canvas"></div>
+            </div>
+        </section>
+        <section class="row footer">
+            <div class="col-md-12" >
+                <img class="center-block" src="phpbsas.png" alt="" />
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="TimeCircles.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDIFctQSD86OMvLnPK24TS6CdtSTkfCJ7Y&sensor=FALSE">
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>

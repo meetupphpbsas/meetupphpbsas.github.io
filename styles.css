@@ -1,3 +1,6 @@
+/*
+Seccion header
+*/
 .header {
     background: #3D7B94;
     padding-top: 4em;
@@ -5,6 +8,14 @@
 .header .logo {
     margin-bottom: 4em;
 }
+.social {
+    margin-top: -113px;
+    margin-right: -15px;
+}
+
+/*
+Seccion countdown
+*/
 .countdown {
     padding-top: 2em;
     background: #F5F5F5;
@@ -20,15 +31,13 @@
 .countdown div.countdownClock {
     width: 100%;
 }
-.social {
-    margin-top: -113px;
-    margin-right: -15px;
-}
-
 .countdown .titulo {
     margin-bottom: 0.5em;
 }
 
+/*
+Seccion agenda
+*/
 .agenda {
     background: #3D7B94;
     padding-top: 2em;
@@ -71,26 +80,29 @@
 .agenda .row div.left .time {
     padding-right: 10px;
 }
-.text {
+.agenda .text {
     width: 75%;
 }
-.point-left {
+.agenda .point-left {
     background: url('point.png');
     width: 5px;
     height: 10px;
     margin-top: 0.5em;
 }
-.point-right {
+.agenda .point-right {
     background: url('point.png') 0 -10px;
     width: 5px;
     height: 10px;
     margin-top: 0.5em;
 }
 
-.autor {
+.agenda .autor {
     color: #A7CCDA;
 }
 
+/*
+Seccion mapa
+*/
 .map {
     background-color: #F5F5F5;
 }
@@ -112,6 +124,9 @@
     margin-bottom: 1em;
 }
 
+/*
+Seccion footer
+*/
 .footer {
     background: #3D7B94;
     padding: 2em 0em;

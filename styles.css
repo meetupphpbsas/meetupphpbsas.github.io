@@ -92,12 +92,14 @@
 }
 
 .map {
-    padding: 0px;
     background-color: #F5F5F5;
+}
+
+.map div {
+    padding: 0px 0px 0px 0px;
 }
 .map .map_canvas {
     height: 350px;
-    width: 100%;
 }
 
 .map .titulo {

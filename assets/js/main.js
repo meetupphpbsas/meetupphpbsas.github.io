@@ -1,4 +1,6 @@
 $(function() {
+    
+    // Clock
     var data = {
         count_past_zero: false,
         circle_bg_color: "#3D7B94",
@@ -28,9 +30,13 @@ $(function() {
             }
         }
     };
-
     $(".countdownClock").TimeCircles(data);
 
+    $(window).resize(function(){
+        $(".countdownClock").TimeCircles().rebuild();
+    });
+
+    
     var infowindow = new google.maps.InfoWindow({
         content: "<b>IT Master</b><br>Av Rivadavia 5040, Buenos Aires."
     });
@@ -64,4 +70,5 @@ $(function() {
         title: 'IT Master'
     });
     infowindow.open(map,marker);
+    
 });

@@ -1,18 +1,3 @@
-# Meetup php bsas 
-
-Esta es la web de nuestro grupo en donde podremos ver las últimas movedades, los datos del próximo meetup y la información del los meetups pasados (diapositivas, charlas, links, fuentes, etc).
-
-
-
-## Colaboraciones
-La comunidad la hacemos entre todos, por tal motivo, queremos incentivar una participación abierta de los integrantes del grupo para mejorar las herramientas de comunicación y colaboración.
-
-Hay muchas formas de colaborar, desde haciendo un fork y mejorando el código fuente hasta simplemente reportar un bug o sugerir mejoras.
-
-Esperamos sus ideas! :)
-
-
-## Licencia
 The MIT License (MIT)
 
 Copyright (c) 2015 Meetup PHP Buenos Aires

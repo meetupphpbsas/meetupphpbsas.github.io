@@ -1,0 +1,10 @@
+/** HEADER
+******************************************/
+
+.header {
+    /*background: #3D7B94;*/
+    padding-top: 3em;
+}
+.header .logo {
+    margin-bottom: 4em;
+}

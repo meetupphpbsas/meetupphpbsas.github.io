@@ -1,0 +1,21 @@
+/** Objetivo
+******************************************/
+
+.objetivo {
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+.objetivo h2 {
+    margin-bottom:50px;
+}
+.objetivo-desc {
+    margin-top:30px;
+    max-width: 800px;
+    background-color: #e6e6e6;
+    padding:20px;
+    font-size:20px;
+    line-height: 35px;
+    text-align: left;
+}

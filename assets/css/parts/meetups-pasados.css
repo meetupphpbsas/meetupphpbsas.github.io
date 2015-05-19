@@ -1,0 +1,36 @@
+/** MEETUPS PASADOS
+******************************************/
+.meetups-pasados {
+    padding-top:10px;
+    padding-bottom:50px;
+}
+
+.meetups-pasados .meetups-pasados-desc {
+    max-width: 800px;
+    margin-top:20px;
+}
+
+.meetups-pasados-desc .panel-heading {
+    background-color: #fff !important;
+    color: #3D7B94;
+}
+
+.meetups-pasados-desc .panel-heading a {
+    font-size:20px;
+    font-weight: 300;
+
+}
+
+.meetups-pasados-desc table tr {
+    border-bottom:1px dotted #ccc;
+    padding:10px 0 10px 0;
+}
+
+.meetups-pasados-desc table tr:last-child {
+    border-bottom: none;
+}
+
+.meetups-pasados-desc table tr td {
+    padding-top:10px;
+    padding-bottom:10px;
+}

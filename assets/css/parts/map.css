@@ -1,0 +1,24 @@
+/** MAP
+******************************************/
+
+.map {
+    padding-top:10px;
+    padding-bottom:30px;
+}
+.map h2 {
+    margin-bottom:30px;
+}
+.map div {
+    padding: 0px 0px 0px 0px;
+}
+.map .map_canvas {
+    height: 400px;
+}
+
+.map .map-desc span {
+    font-size: 18px
+}
+
+.infowin {
+    color:#3D7B94;
+}

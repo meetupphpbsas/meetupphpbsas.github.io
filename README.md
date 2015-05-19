@@ -2,8 +2,6 @@
 
 Esta es la web de nuestro grupo en donde podremos ver las últimas movedades, los datos del próximo meetup y la información del los meetups pasados (diapositivas, charlas, links, fuentes, etc).
 
-
-
 ## Colaboraciones
 La comunidad la hacemos entre todos, por tal motivo, queremos incentivar una participación abierta de los integrantes del grupo para mejorar las herramientas de comunicación y colaboración.
 
@@ -11,6 +9,9 @@ Hay muchas formas de colaborar, desde haciendo un fork y mejorando el código fu
 
 Esperamos sus ideas! :)
 
+## Versión
+
+3.0.0
 
 ## Licencia
 The MIT License (MIT)

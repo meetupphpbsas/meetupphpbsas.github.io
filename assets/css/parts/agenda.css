@@ -60,13 +60,13 @@
 }
 .agenda .border-left {
     width: 1px;
-    border-right: 1px solid #FFF;
+    border-right: 1px solid #3D7B94;
     height: 10px;
     margin-right: -1px;
 }
 .agenda .border-right {
     width: 1px;
-    border-left: 1px solid #FFF;
+    border-left: 1px solid #3D7B94;
     height: 10px;
     margin-left: -1px;
 }
@@ -92,6 +92,12 @@
     height: 20px;
 }
 
+.agenda .last .border-right {
+    border-left: 1px solid #FFF;
+}
+.agenda .last .border-left {
+    border-right: 1px solid #FFF;
+}
 .agenda .mate {
     margin-top: 1.5em;
 }

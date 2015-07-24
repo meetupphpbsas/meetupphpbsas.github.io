@@ -2,14 +2,15 @@
 ******************************************/
 .countdown {
     padding-top:30px;
-    padding-bottom:40px;
+    
 }
 .countdown div.countdownClock {
     width: 60%;
     margin:2em auto;
+    margin-bottom:1.2em;
 }
 .countdown .date-meetup {
-    font-size: 2.5em;
+    font-size: 1.6em;
     margin-bottom:15px;
 }
 
@@ -20,4 +21,6 @@
     background: #f5f5f5;
     border-color: #f5f5f5;
     color:#3D7B94;
+    font-size: 1.1em;
+    margin-top: 30px;
 }

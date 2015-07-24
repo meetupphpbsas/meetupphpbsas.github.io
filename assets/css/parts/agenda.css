@@ -3,11 +3,15 @@
 
 .agenda {
     background: #3D7B94;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 2em;
     color: #F5F5F5;
     font-size: 1.45em;
     line-height: 1.45em
+}
+
+.agenda h2 {
+    margin-bottom: 0.8em;
 }
 
 .agenda .titulo {
@@ -36,6 +40,9 @@
     width: 20%;
     font-weight: bold;
 }
+.left .time {
+    width: 13%;
+}
 .agenda .row div.right .time {
     padding-left: 10px;
 }
@@ -46,13 +53,26 @@
     width: 75%;
 }
 .agenda .point-left {
-    background: url('../images/point.png');
+    background: url('../../images/point.png');
     width: 5px;
     height: 10px;
     margin-top: 0.5em;
 }
+.agenda .border-left {
+    width: 1px;
+    border-right: 1px solid #FFF;
+    height: 10px;
+    margin-right: -1px;
+}
+.agenda .border-right {
+    width: 1px;
+    border-left: 1px solid #FFF;
+    height: 10px;
+    margin-left: -1px;
+}
+
 .agenda .point-right {
-    background: url('../images/point.png') 0 -10px;
+    background: url('../../images/point.png') 0 -10px;
     width: 5px;
     height: 10px;
     margin-top: 0.5em;
@@ -60,4 +80,18 @@
 
 .agenda .autor {
     color: #A7CCDA;
+}
+
+.agenda .last {
+    border:none!important;
+}
+
+.agenda .last .border-right,
+.agenda .last .border-left {
+    margin: 0px;
+    height: 20px;
+}
+
+.agenda .mate {
+    margin-top: 1.5em;
 }

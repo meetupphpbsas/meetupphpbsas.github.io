@@ -3,8 +3,14 @@
 
 .header {
     /*background: #3D7B94;*/
-    padding-top: 3em;
+    padding-top: 4em;
 }
 .header .logo {
-    margin-bottom: 4em;
+    margin-bottom: 5.0em;
+}
+
+.sombra {
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(50, 50, 194, 0.63);
+-moz-box-shadow:    0px 7px 5px 0px rgba(50, 50, 194, 0.63);
+box-shadow:         0px 7px 5px 0px rgba(50, 50, 194, 0.63);
 }

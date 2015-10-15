@@ -3,10 +3,11 @@
 
 .map {
     padding-top:10px;
-    padding-bottom:30px;
+    padding-bottom:0px;
+    border-bottom: 2px solid #F5F5F5;
 }
 .map h2 {
-    margin-bottom:30px;
+    margin-bottom:10px;
 }
 .map div {
     padding: 0px 0px 0px 0px;
@@ -21,4 +22,7 @@
 
 .infowin {
     color:#3D7B94;
+}
+.map img {
+  margin-bottom: 1em;
 }

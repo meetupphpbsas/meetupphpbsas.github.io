@@ -6,8 +6,16 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300|Roboto+Condensed:400,700|Lato:400,300,700,900|Source+Sans+Pro:400,300,600,700|Cabin:400,500,600,700|Cabin+Condensed:400,500,600,700|Abril+Fatface|Ubuntu:400,300,500,700);
 
 @import url(parts/base.css);
-/*@import url(parts/ex_1.css);*/
-@import url(parts/ex_2.css);
+@import url(parts/social-icons-nav.css);
+@import url(parts/header.css);
+@import url(parts/objetivo.css);
+@import url(parts/participar.css);
+@import url(parts/countdown.css);
+@import url(parts/map.css);
+@import url(parts/meetups-pasados.css);
+@import url(parts/agenda.css);
+@import url(parts/time-circles.css);
+
 
 @font-face {
     font-family: "zocial";
@@ -26,17 +34,4 @@
         font-family: "zocial";
         src: url("../fonts/zocial.svg#zocial") format("svg");
     }
-}
-
-.meetup {
-    display: inline-block;
-    padding: 0 .2em 0 0;
-    text-align: center;
-    margin:0;
-    line-height: 30px;
-}
-.meetup:before {
-    font-family: zocial;
-    font-size:1.6em;
-    content: "\f13a";
 }

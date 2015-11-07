@@ -1,73 +1,8 @@
-/** BASE
-******************************************/
-
 body {
     background-color: #f5f5f5;
     color: #3D7B94;
-    /*font-family: 'Open Sans', sans-serif;*/
- 
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
     font-weight: 300;
-}
-h2 {
-    font-size: 50px;
-    font-weight: 300;
-    text-align: center;
-}
-.block-blue {
-    background-color: #3D7B94;
-    color: #f5f5f5;
-}
-.block-grey {
-    background-color: #f5f5f5;
-    color: #3D7B94;
-}
-.header2 {
-    position: relative;
-    overflow: hidden;
-}
-.ribbon {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform-origin: 0 100%;
-    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .42), 0 1px 6px 0 rgba(0, 0, 0, .12);
-    background-color: #ffeb3b;
-    color: #3D7B94; /*rgba(0, 0, 0, 0.9);*/
-    height: 35px;
-    width: 210px;
-    top: -30px;
-    transform: rotateZ(-45deg);
-    padding-left: 30px;
-    padding-right: 30px;
-    line-height: 35px;
-    left: 0px;
-    top: 110px;
-    vertical-align: middle;
-    -webkit-transform: rotateZ(-45deg);
-    -moz-transform: rotateZ(-45deg);
-    -o-transform: rotateZ(-45deg);
-    z-index: 100;
-}
-
-.ribbon a {
-    display: block;
-    cursor: pointer;
-    text-decoration: none;  
-}
-
-.ribbon a:hover, 
-.ribbon a:active, 
-.ribbon a:visited,
-.ribbon a:link{
-    color:#3D7B94;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.ribbon a:hover {
-    font-size: 16px;
+    height:100%;
 }

@@ -55,7 +55,7 @@
             <div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;" data-anchor-target="#slide-1">
                 <div class="hsContainer">
                     <div class="hsContent" data-anchor-target="#slide-1">
-                        <!--<img class="center-block img-responsive logo" src="assets/images/logo_php_meetup.png" alt="PHP Bs As Meetup" />-->
+                        <img class="center-block img-responsive logo" src="assets/images/logo_php_meetup.png" alt="PHP Bs As Meetup" />
                     </div>
                 </div>
             </div>

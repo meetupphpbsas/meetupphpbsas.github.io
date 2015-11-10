@@ -11,7 +11,7 @@ Esperamos sus ideas! :)
 
 ## Versión
 
-3.0.0
+4.0.0
 
 ## Licencia
 The MIT License (MIT)

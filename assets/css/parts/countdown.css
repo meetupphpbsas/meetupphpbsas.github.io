@@ -1,3 +1,17 @@
+
+
+/** COUNTDOWN
+******************************************/
+.countdown {
+}
+.countdown div.countdownClock {
+    width: 60%;
+    margin:2em auto;
+    margin-bottom:1.2em;
+}
+
+
+
 /**
  *  This element is created inside your target element
  *  It is used so that your own element will not need to be altered
@@ -40,3 +54,5 @@
     margin-top: 0.4em;
     font-weight: bold;
 }
+
+

@@ -1,0 +1,27 @@
+#home {
+    width:100%;
+    height:100%;
+}
+
+#home .bcg {
+    background-image:url('../../images/backgrounds/buenos_aires.jpg'); 
+}
+
+#home .bcg div.logo-content {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#home .bcg div.logo-content div {
+    display: table-cell;
+    vertical-align: middle;
+}
+#home .bcg div.logo-content span {
+    color:#fff;
+    font-size:50px;
+    font-weight: 400;
+    background-color: #3e7b95;
+    padding:0px 10px;
+}

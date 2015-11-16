@@ -1,0 +1,67 @@
+#meetupprevios {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+#meetupprevios .container {
+    width:100%;
+}
+
+#meetupprevios .container .col-meetupprevio {
+    padding:0 !important;
+}
+
+#meetupprevios a {
+    display: table;
+    text-align:center;
+    height:200px;
+    width:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:30px;
+    font-weight: bold;
+    color:#fff;
+}
+
+#meetupprevios a:hover {
+    text-decoration: none;
+}
+
+#meetupprevios a div {
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+    bottom:0;
+    left:0;
+    height:75px;
+}
+
+#meetupprevios a div.btn-alpha {
+    background-color: #000;
+    opacity: 0.6;
+    position:absolute;
+}
+
+#meetupprevios a div.btn-title {
+    position:absolute;
+    height:75px;
+    line-height:70px;
+}
+
+#meetupprevios a:hover div.btn-alpha {
+    opacity: 0.7;
+    height:100%;
+}
+
+#meetupprevios a.meetup1 {
+    background-image:url('../../images/meetups/meetup.png'); 
+}
+#meetupprevios a.meetup2 {
+    background-image:url('../../images/meetups/meetup_2.jpg'); 
+}
+#meetupprevios a.meetup3 {
+    background-image:url('../../images/meetups/meetup.png'); 
+}
+#meetupprevios a.meetup4 {
+    background-image:url('../../images/meetups/meetup_4.jpeg'); 
+}

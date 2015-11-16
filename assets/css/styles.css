@@ -1,23 +1,31 @@
 /**
  * Inports
  */
-@import url(parts/fonts.css);
-@import url(parts/base.css);
-@import url(parts/parallax.css);
-@import url(parts/countdown.css);
-@import url(parts/map.css);
-@import url(parts/ribbon.css);
+@import url(partials/fonts.css);
+@import url(partials/base.css);
+@import url(partials/new.css);
+@import url(partials/countdown.css);
+@import url(partials/map.css);
+@import url(partials/ribbon.css);
+
+@import url(partials/section_footer.css);
+@import url(partials/section_home.css);
+@import url(partials/section_meetupprevios.css);
+@import url(partials/section_proxmeetup.css);
+@import url(partials/section_quienessomos.css);
+@import url(partials/section_seguinos.css);
 
 
-.meetup {
-    display: inline-block;
-    padding: 0 .2em 0 0;
-    text-align: center;
-    margin:0;
-    line-height: 30px;
-}
-.meetup:before {
-    font-family: zocial;
-    font-size:1.6em;
-    content: "\f13a";
-}
+/*
+@import url(parts/loading.css);
+*/
+
+
+
+/**********************************************************
+Colors
+
+Background: #f5f5f5;
+Azul: #3e7b95;
+*/
+

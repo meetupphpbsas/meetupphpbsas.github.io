@@ -1,0 +1,36 @@
+.no-js {
+    /*padding-top: 106px;*/
+}
+
+/** Loading */
+.loading {
+    background: #333 url('../../images/ico_loading.gif') no-repeat center center;
+}
+
+.loading section,
+.loading .ribbon  {
+    opacity: 0;
+}
+
+/** Loaded */
+.loaded {
+    background: #f5f5f5;
+}
+
+.loaded section,
+.loaded .ribbon  {
+    opacity: 1;
+    -webkit-transition: opacity 1000ms ease-out;
+    -moz-transition: opacity 1000ms ease-out;
+    transition: opacity 1000ms ease-out;
+}
+
+/** loaded & no-js */
+/*
+.no-js section {
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
+}
+*/

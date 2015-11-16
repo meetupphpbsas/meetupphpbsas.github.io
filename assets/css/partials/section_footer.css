@@ -1,0 +1,18 @@
+#footer {
+    /*
+    background-color: #2C2C2C;
+    color: #fff;*/
+    text-align: left;
+    padding-bottom:30px;
+}
+#footer .organizador {
+    overflow:hidden;
+    margin-bottom:20px;
+    font-size: 18px;
+}
+#footer .organizador img {
+    width:60px;
+    height:60px;
+    float:left;
+    margin-right:5px;
+}

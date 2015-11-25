@@ -1,5 +1,6 @@
-/** MAP
-******************************************/
+/************************************************
+ * Google map
+ ***********************************************/
 
 .map {
     padding-top:10px;
@@ -7,23 +8,10 @@
     border-bottom: 2px solid #F5F5F5;
     width:100%;
 }
-.map h2 {
-    margin-bottom:10px;
-}
-.map div {
-    padding: 0px 0px 0px 0px;
-}
 .map .map_canvas {
     height: 400px;
 }
 
-.map .map-desc span {
-    font-size: 18px
-}
-
-.infowin {
-    color:#3D7B94;
-}
-.map img {
-  margin-bottom: 1em;
+.map h2 {
+    margin-bottom:10px;
 }

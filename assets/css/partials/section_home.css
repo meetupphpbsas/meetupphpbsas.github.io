@@ -18,10 +18,12 @@
     display: table-cell;
     vertical-align: middle;
 }
+
 #home .bcg div.logo-content span {
     color:#fff;
     font-size:50px;
     font-weight: 400;
     background-color: #3e7b95;
     padding:0px 10px;
+    line-height: 70px;
 }

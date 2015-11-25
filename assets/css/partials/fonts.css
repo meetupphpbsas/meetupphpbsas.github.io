@@ -1,6 +1,13 @@
+/************************************************
+ * Google fonts
+ ***********************************************/
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Open+Sans+Condensed:300,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300|Roboto+Condensed:400,700|Lato:400,300,700,900|Source+Sans+Pro:400,300,600,700|Cabin:400,500,600,700|Cabin+Condensed:400,500,600,700|Abril+Fatface|Ubuntu:400,300,500,700);
 
+/************************************************
+ * Meetup icon font
+ ***********************************************/
 @font-face {
     font-family: "zocial";
     src: url("../../fonts/zocial.eot");
@@ -19,8 +26,6 @@
         src: url("../../fonts/zocial.svg#zocial") format("svg");
     }
 }
-
-
 .meetup {
     display: inline-block;
     padding: 0 .2em 0 0;

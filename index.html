@@ -113,12 +113,13 @@
     </section>
 
     <!-- Meetups previos -->
-    <section id="meetupprevios" class="bk-blue">
+    <section id="meetupprevios" class="bk-white">
         <div class="container">
             <div class="row">
                 <h2 class="text-center">Meetups anteriores</h2>
                 <div class="col-meetupprevio col-lg-3 col-md-4 col-xs-6">
-                    <a href="#" class="meetup1">
+                    <a href="#modalMeetup1" role="button" class="meetup1" data-toggle="modal">
+                        <div class="btn-img"></div>
                         <div class="btn-alpha"></div>
                         <div class="btn-title">
                             Meetup #1
@@ -126,7 +127,8 @@
                     </a>
                 </div>
                 <div class="col-meetupprevio col-lg-3 col-md-4 col-xs-6">
-                    <a href="#" class="meetup2">    
+                    <a href="#modalMeetup2" class="meetup2" data-toggle="modal">    
+                        <div class="btn-img"></div>
                         <div class="btn-alpha"></div>
                         <div class="btn-title">
                             Meetup #2
@@ -134,7 +136,8 @@
                     </a>
                 </div>
                 <div class="col-meetupprevio col-lg-3 col-md-4 col-xs-6">
-                    <a href="#" class="meetup3">
+                    <a href="#modalMeetup3" class="meetup3" data-toggle="modal">
+                        <div class="btn-img"></div>
                         <div class="btn-alpha"></div>
                         <div class="btn-title">
                             Meetup #3
@@ -142,10 +145,20 @@
                     </a>
                 </div>
                 <div class="col-meetupprevio col-lg-3 col-md-4 col-xs-6">
-                    <a href="#" class="meetup4">
+                    <a href="#modalMeetup4" class="meetup4" data-toggle="modal">
+                        <div class="btn-img"></div>
                         <div class="btn-alpha"></div>
                         <div class="btn-title">
                             Meetup #4
+                        </div>
+                    </a>
+                </div>
+                <div class="col-meetupprevio col-lg-3 col-md-4 col-xs-6">
+                    <a href="#modalMeetup5" class="meetup4" data-toggle="modal">
+                        <div class="btn-img"></div>
+                        <div class="btn-alpha"></div>
+                        <div class="btn-title">
+                            Meetup #5
                         </div>
                     </a>
                 </div>
@@ -208,13 +221,95 @@
 
 
 
-
+    <!-- Modales de meetups pasados -->
+    <div id="modalMeetup1" class="modal" data-easein="bounceDownIn"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Meetup #1</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Próximamente</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalMeetup2" class="modal" data-easein="bounceDownIn"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Meetup #2</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Próximamente</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalMeetup3" class="modal" data-easein="bounceDownIn"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Meetup #3</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Próximamente</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalMeetup4" class="modal" data-easein="bounceDownIn"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Meetup #4</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Próximamente</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalMeetup5" class="modal" data-easein="bounceDownIn"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Meetup #5</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Próximamente</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDIFctQSD86OMvLnPK24TS6CdtSTkfCJ7Y">
     </script>
     <script src="assets/js/TimeCircles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.min.js"></script>
     <!--<script src="assets/js/imagesloaded.js"></script>-->
     <script src="assets/js/main.js"></script>
 

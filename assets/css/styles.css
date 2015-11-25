@@ -3,17 +3,18 @@
  */
 @import url(partials/fonts.css);
 @import url(partials/base.css);
-@import url(partials/new.css);
+/*@import url(partials/new.css);*/
 @import url(partials/countdown.css);
 @import url(partials/map.css);
 @import url(partials/ribbon.css);
 
-@import url(partials/section_footer.css);
 @import url(partials/section_home.css);
-@import url(partials/section_meetupprevios.css);
-@import url(partials/section_proxmeetup.css);
 @import url(partials/section_quienessomos.css);
+@import url(partials/section_proxmeetup.css);
+@import url(partials/section_footer.css);
+@import url(partials/section_meetupprevios.css);
 @import url(partials/section_seguinos.css);
+/*@import url(partials/modal.css);*/
 
 
 /*

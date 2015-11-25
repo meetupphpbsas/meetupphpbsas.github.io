@@ -1,7 +1,12 @@
 #meetupprevios {
-    padding-top: 0;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 70px;
 }
+
+#meetupprevios h2 {
+    margin-bottom: 20px;
+}
+
 #meetupprevios .container {
     width:100%;
 }
@@ -15,13 +20,18 @@
     text-align:center;
     height:200px;
     width:100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-size:30px;
     font-weight: bold;
     color:#fff;
+    overflow: hidden;
 }
+
+#meetupprevios a .btn-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 #meetupprevios a:hover {
     text-decoration: none;
@@ -53,15 +63,24 @@
     height:100%;
 }
 
-#meetupprevios a.meetup1 {
+#meetupprevios a:hover .btn-img {
+    -webkit-transform: scale(1.2) rotate(-7deg);
+    -moz-transform: scale(1.2) rotate(-7deg);
+    -ms-transform: scale(1.2) rotate(-7deg);
+    -o-transform: scale(1.2) rotate(-7deg);
+    transform: scale(1.2) rotate(-7deg);
+}
+
+#meetupprevios a.meetup1 .btn-img {
     background-image:url('../../images/meetups/meetup.png'); 
 }
-#meetupprevios a.meetup2 {
+
+#meetupprevios a.meetup2 .btn-img {
     background-image:url('../../images/meetups/meetup_2.jpg'); 
 }
-#meetupprevios a.meetup3 {
+#meetupprevios a.meetup3 .btn-img {
     background-image:url('../../images/meetups/meetup.png'); 
 }
-#meetupprevios a.meetup4 {
+#meetupprevios a.meetup4 .btn-img {
     background-image:url('../../images/meetups/meetup_4.jpeg'); 
 }

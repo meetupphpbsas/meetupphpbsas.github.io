@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+    .countdown div.countdownClock {
+        width: 100%;
+        margin:1em auto;
+    }
+}

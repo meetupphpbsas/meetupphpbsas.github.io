@@ -1,4 +1,4 @@
-# Meetup php bsas 
+# Meetup php bsas 2
 
 Esta es la web de nuestro grupo en donde podremos ver las últimas movedades, los datos del próximo meetup y la información del los meetups pasados (diapositivas, charlas, links, fuentes, etc).
 
